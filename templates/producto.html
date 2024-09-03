@@ -4,7 +4,7 @@
         <title>Producto: {{producto.nombre}}</title>
     </head>
     <body>
-        <img src="{{ url_for('static', filename='')}}{{producto.nombre}}.png"/>
+        <img src="{{ url_for('static', filename='')}}fotos/{{producto.nombre}}.png"/>
         <h3>Nombre: {{producto.nombre}}</h3>
         <h3>Precio: ${{producto.precio}}</h3>
         <br>
