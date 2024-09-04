@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Producto: {{producto.nombre}}</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}">
     </head>
     <body>
         <img src="{{ url_for('static', filename='')}}fotos/{{producto.nombre}}.png"/>
