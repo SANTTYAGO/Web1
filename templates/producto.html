@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}">
     </head>
     <body>
+        <div class="product-page">
         <img src="{{ url_for('static', filename='')}}fotos/{{producto.nombre}}.png"/>
         <h3>Nombre: {{producto.nombre}}</h3>
         <h3>Precio: ${{producto.precio}}</h3>
