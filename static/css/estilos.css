@@ -16,6 +16,11 @@ body {
     text-decoration: none;
     color: #337ab7;
   }
+
+  .letter-white {
+    text-decoration: none;
+    color: #ffffff;
+  }
   
   a:hover {
     color: #23527c;
@@ -29,7 +34,7 @@ body {
   }
   
   ol li {
-    padding: 10px;
+    padding: 20px;
     border-bottom: 1px solid #ccc;
   }
   
